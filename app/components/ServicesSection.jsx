@@ -23,7 +23,7 @@ const OurServices = () => {
       title: "Building Construction",
       description:
         "Complete residential and commercial building construction services from foundation to finishing, delivering quality structures that stand the test of time.",
-      image: "/service1.jpg",
+      image: "/service1.webp",
       icon: FaBuilding,
     },
     {
@@ -39,7 +39,7 @@ const OurServices = () => {
       title: "Project Management",
       description:
         "Comprehensive project management ensuring timely delivery, budget control, and seamless coordination of all construction phases from planning to completion.",
-      image: "/service3.jpg",
+      image: "/service3.webp",
       icon: FaProjectDiagram,
     },
     {
@@ -47,7 +47,7 @@ const OurServices = () => {
       title: "Architectural Design",
       description:
         "Innovative architectural design services that blend functionality with aesthetic appeal, creating spaces that inspire and serve your unique vision.",
-      image: "/service4.jpg",
+      image: "/service4.jpeg",
       icon: FaDraftingCompass,
     },
     {
@@ -55,7 +55,7 @@ const OurServices = () => {
       title: "Road Construction",
       description:
         "Professional road construction and infrastructure development services including highways, rural roads, parking lots, and pavement solutions with modern equipment and techniques.",
-      image: "/service5.jpg",
+      image: "/service5.jpeg",
       icon: FaRoad,
     },
     {
@@ -63,7 +63,7 @@ const OurServices = () => {
       title: "Tractor & Machinery Hiring",
       description:
         "Comprehensive heavy machinery rental services including excavators, bulldozers, tractors, and specialized construction equipment with skilled operators available.",
-      image: "/service6.jpg",
+      image: "/service6.webp",
       icon: FaTractor,
     },
   ];

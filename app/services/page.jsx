@@ -42,7 +42,7 @@ const MburubuServicesPage = () => {
       description:
         "Custom homes, apartments, and housing developments built to the highest standards with modern Nigerian architectural designs.",
       icon: Home,
-      image: "/api/placeholder/400/300",
+      image: "/resident.jpeg",
       features: [
         "Custom Home Design",
         "Luxury Apartments",
@@ -58,7 +58,7 @@ const MburubuServicesPage = () => {
       description:
         "Office complexes, retail spaces, and industrial facilities designed for durability and functionality in Nigeria's business environment.",
       icon: Building,
-      image: "/api/placeholder/400/300",
+      image: "/comancial.jpg",
       features: [
         "Office Complexes",
         "Shopping Centers",
@@ -74,7 +74,7 @@ const MburubuServicesPage = () => {
       description:
         "Roads, bridges, and public facilities that strengthen communities and support Nigeria's growing economy.",
       icon: MapPin,
-      image: "/api/placeholder/400/300",
+      image: "/infra.jpg",
       features: [
         "Road Construction",
         "Bridge Building",
@@ -90,7 +90,7 @@ const MburubuServicesPage = () => {
       description:
         "Transform existing spaces with modern upgrades, structural improvements, and aesthetic enhancements.",
       icon: Hammer,
-      image: "/api/placeholder/400/300",
+      image: "/renovation.webp",
       features: [
         "Building Upgrades",
         "Interior Remodeling",
@@ -106,7 +106,7 @@ const MburubuServicesPage = () => {
       description:
         "Ongoing building maintenance, repairs, and facility management to protect your investment for years to come.",
       icon: Wrench,
-      image: "/api/placeholder/400/300",
+      image: "/maintain.jpeg",
       features: [
         "Preventive Maintenance",
         "Emergency Repairs",
@@ -122,7 +122,7 @@ const MburubuServicesPage = () => {
       description:
         "Expert advice on construction projects, feasibility studies, and project management from our experienced team.",
       icon: Users,
-      image: "/api/placeholder/400/300",
+      image: "/consulting.jpg",
       features: [
         "Project Planning",
         "Cost Estimation",
@@ -386,8 +386,11 @@ const MburubuServicesPage = () => {
             Premier construction services across Nigeria with over two decades
             of excellence, innovation, and commitment to quality craftsmanship.
           </p>
-          <button className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:from-orange-600 hover:to-red-600 transition-all duration-300 transform hover:scale-105 shadow-lg">
-            Explore Our Services
+          <button
+            onClick={() => window.open("https://wa.link/05k24d", "_blank")}
+            className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:from-orange-600 hover:to-red-600 transition-all duration-300 transform hover:scale-105 shadow-lg"
+          >
+            Contact us Today
           </button>
         </div>
       </section>

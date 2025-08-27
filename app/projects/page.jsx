@@ -27,7 +27,7 @@ const projectsData = [
       "A 25-story luxury office complex with modern amenities and sustainable design features.",
     fullDescription:
       "The Lagos Executive Tower stands as a testament to modern Nigerian architecture, combining cutting-edge design with sustainable building practices. This 25-story commercial complex features state-of-the-art office spaces, retail outlets, and premium amenities including a rooftop garden and smart building management systems.",
-    mainImage: "/api/placeholder/800/600",
+    mainImage: "/images/tower.jpg",
     images: [
       "/api/placeholder/800/600",
       "/api/placeholder/800/600",
@@ -50,7 +50,7 @@ const projectsData = [
       "Modern residential estate with 150 luxury homes featuring contemporary Nigerian architecture.",
     fullDescription:
       "This exclusive residential estate represents the pinnacle of modern Nigerian living. Each of the 150 homes is designed with contemporary aesthetics while respecting traditional Nigerian architectural elements. The estate includes parks, a clubhouse, and 24/7 security.",
-    mainImage: "/api/placeholder/800/600",
+    mainImage: "/images/resident.webp",
     images: [
       "/api/placeholder/800/600",
       "/api/placeholder/800/600",
@@ -73,7 +73,7 @@ const projectsData = [
       "State-of-the-art shopping complex with entertainment facilities and modern retail spaces.",
     fullDescription:
       "This ultra-modern shopping mall brings world-class retail experience to Port Harcourt. The complex features over 200 retail outlets, a cinema complex, food court, and entertainment facilities spread across four levels with premium finishes throughout.",
-    mainImage: "/api/placeholder/800/600",
+    mainImage: "/images/shoprite.png",
     images: [
       "/api/placeholder/800/600",
       "/api/placeholder/800/600",
@@ -96,7 +96,7 @@ const projectsData = [
       "Modern manufacturing facility with sustainable energy solutions and efficient layouts.",
     fullDescription:
       "This industrial complex showcases modern manufacturing infrastructure with integrated solar power systems and efficient layouts. The facility includes multiple production halls, administrative offices, and worker amenities designed for maximum productivity.",
-    mainImage: "/api/placeholder/800/600",
+    mainImage: "/images/industry.jpg",
     images: [
       "/api/placeholder/800/600",
       "/api/placeholder/800/600",
@@ -163,8 +163,11 @@ const HeroSection = ({ darkMode }) => (
           transition={{ delay: 0.9, duration: 0.8 }}
           className="flex flex-col sm:flex-row gap-4"
         >
-          <button className="px-8 py-4 bg-gradient-to-r from-yellow-500 to-orange-600 text-white font-semibold rounded-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
-            Explore Projects
+          <button
+            onClick={() => window.open("https://wa.link/05k24d", "_blank")}
+            className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:from-orange-600 hover:to-red-600 transition-all duration-300 transform hover:scale-105 shadow-lg"
+          >
+            Contact us Today
           </button>
           <button className="px-8 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-blue-900 transition-all duration-300">
             Get Quote
