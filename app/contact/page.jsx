@@ -235,7 +235,7 @@ const ContactPage = () => {
   // Company contact information - easily editable
   const contactInfo = {
     address: "123 Construction Avenue, Victoria Island, Lagos, Nigeria",
-    phone: "+234 801 234 5678",
+    phone: "+234 (0) 803 569 6337",
     email: "info@mburubu.com",
     hours:
       "Monday - Friday: 8:00 AM - 6:00 PM\nSaturday: 9:00 AM - 4:00 PM\nSunday: Closed",

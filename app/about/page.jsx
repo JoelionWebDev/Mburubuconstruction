@@ -99,7 +99,10 @@ const AboutUsPage = () => {
               <button className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
                 Our Projects
               </button>
-              <button className="border-2 border-white text-white hover:bg-white hover:text-orange-600 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105">
+              <button
+                onClick={() => window.open("/contact", "_self")}
+                className="border-2 border-white text-white hover:bg-white hover:text-orange-600 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105"
+              >
                 Contact Us
               </button>
             </div>
@@ -405,7 +408,7 @@ const AboutUsPage = () => {
               <div className="mt-8 text-orange-100">
                 <p className="text-lg">Available 24/7 for consultations</p>
                 <p className="text-orange-200">
-                  📞 +234 803 XXX XXXX | ✉️ info@mburubuconstruction.com
+                  📞 +234 803 569 6337 | ✉️ info@mburubuconstruction.com
                 </p>
               </div>
             </div>

@@ -52,7 +52,10 @@ const MburubuHero = () => {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-delayed">
-          <button className="group relative px-8 py-4 bg-gradient-to-r from-orange-500 to-orange-600 text-white font-semibold rounded-full shadow-xl hover:shadow-2xl hover:shadow-orange-500/25 transform hover:scale-105 transition-all duration-300 border-2 border-orange-400/30 hover:border-orange-300/50 min-w-48">
+          <button
+            onClick={() => window.open("/contact", "_self")}
+            className="group relative px-8 py-4 bg-gradient-to-r from-orange-500 to-orange-600 text-white font-semibold rounded-full shadow-xl hover:shadow-2xl hover:shadow-orange-500/25 transform hover:scale-105 transition-all duration-300 border-2 border-orange-400/30 hover:border-orange-300/50 min-w-48"
+          >
             <span className="relative z-10 flex items-center justify-center gap-2">
               Get a Quote
               <svg
@@ -72,7 +75,10 @@ const MburubuHero = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-orange-400 to-orange-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
           </button>
 
-          <button className="group px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-semibold rounded-full border-2 border-white/30 hover:border-white/50 hover:bg-white/20 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl min-w-48">
+          <button
+            onClick={() => window.open("/projects", "_self")}
+            className="group px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-semibold rounded-full border-2 border-white/30 hover:border-white/50 hover:bg-white/20 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl min-w-48"
+          >
             <span className="flex items-center justify-center gap-2">
               View Our Work
               <svg

@@ -39,14 +39,19 @@ const Navbar = () => {
   ];
 
   const socialLinks = [
-    { icon: FaFacebookF, href: "#", color: "hover:text-blue-500" },
-    { icon: FaInstagram, href: "#", color: "hover:text-pink-500" },
-    { icon: FaYoutube, href: "#", color: "hover:text-red-500" },
+    // { icon: FaFacebookF, href: "#", color: "hover:text-blue-500" },
+    // { icon: FaInstagram, href: "#", color: "hover:text-pink-500" },
     {
-      icon: FaTiktok,
-      href: "#",
-      color: "hover:text-gray-900 dark:hover:text-white",
+      icon: FaYoutube,
+      href: "https://www.youtube.com/@mburubuconstruction",
+      color: "hover:text-red-500",
+      target: "_blank",
     },
+    // {
+    //   icon: FaTiktok,
+    //   href: "#",
+    //   color: "hover:text-gray-900 dark:hover:text-white",
+    // },
   ];
 
   return (
